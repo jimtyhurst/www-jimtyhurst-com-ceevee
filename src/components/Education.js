@@ -11,41 +11,72 @@ const Education = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
+          <h3>
+            University of California, Los Angeles
+            (<a href="http://linguistics.ucla.edu/">UCLA</a>)
+          </h3>
           <p className="info">
-            Master in Graphic Design
-            <span>&bull;</span>
-            <em className="date">April 2007</em>
+            <a href="http://linguistics.ucla.edu/ph-d-recipients/">Ph.D. in Linguistics</a>
+            <br />
+              Dissertation: "<a href='http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf'>Logical Forms for English Sentences</a>"
           </p>
-
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            My dissertation investigated the relationship between syntactic structure
+            and semantic interpretation, in order to develop an explicit model of the
+            mapping from surface syntactic forms to a level of Logical Form (LF) and
+            finally to truth values. The mapping from surface structure to LF was done
+            within the framework of the
+            {" "}<a href="https://en.wikipedia.org/wiki/Government_and_binding_theory">Government and Binding</a>{" "}
+            (GB) theory of grammar.
+            A computationally tractable interpretation algorithm was given for mapping
+            logical forms onto truth values within an extensional
+            {" "}<a href="https://plato.stanford.edu/entries/model-theory/">model-theory semantics</a>.
+            The algorithm for interpreting logical forms was based on
+            work in
+            {" "}<a href="https://plato.stanford.edu/entries/generalized-quantifiers/">generalized quantifiers</a>,
+            which enables one to provide a uniform interpretation for a wide range of
+            determiners, including those which are not first-order definable (e.g. "most")
+            and those constructed from
+            {" "}<a href="https://www.gutenberg.org/ebooks/36884">Boolean</a>{" "}
+            combinations of determiners
+            (e.g. "some but not all", "at least six but not more than twelve").
+            I also gave an analysis of referentially dependent noun phrases that
+            inherently require a higher-order analysis, such as
+            {" "}<a href="https://en.wikipedia.org/wiki/Reciprocal_pronoun">reciprocals</a>{" "}
+            (e.g. "each other", "each other's children").
+          </p>
+          <p>
+            Honors: W.M. Keck Research Award for "Semantic Representations for English"
+            project on the Connection Machine.
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
+          <h3>
+            University of California, Los Angeles (UCLA)
+          </h3>
           <p className="info">
-            B.A. Degree in Graphic Design
-            <span>&bull;</span>
-            <em className="date">March 2003</em>
+            M.A. <a href="http://linguistics.ucla.edu/">Linguistics</a>
+            <br />
+            Thesis: "<a href="http://dla.library.upenn.edu/dla/olac/record.html?id=gial_edu_22494">Tone in Kenyang Noun Phrases</a>"
           </p>
+        </div>
+      </div>
 
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>
+            University of California, Irvine
+            (<a href="https://www.uci.edu/">UCI</a>)
+          </h3>
+          <p className="info">
+            B.S. <a href="https://www.cs.uci.edu/">Computer Science</a>
+            <br />
+            B.A. <a href="https://www.math.uci.edu/">Mathematics</a>
+            <br />
+            Honors: Graduated<span className="latin-vocabulary">Cum Laude</span>in both degrees.
           </p>
         </div>
       </div>

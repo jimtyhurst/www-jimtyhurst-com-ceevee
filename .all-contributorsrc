@@ -1,12 +1,24 @@
 {
-  "projectName": "gatsby-starter-ceevee",
-  "projectOwner": "amandeepmittal",
+  "projectName": "www-jimtyhurst-com",
+  "projectOwner": "jimtyhurst",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
   "commit": true,
   "contributors": [
+    {
+      "login": "jimtyhurst",
+      "name": "Jim Tyhurst, Ph.D.",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/346287?v=4",
+      "profile": "http://www.jimtyhurst.com",
+      "contributions": [
+        "design",
+        "code",
+        "documentation",
+        "bug"
+      ]
+    },
     {
       "login": "code",
       "name": "codegent",

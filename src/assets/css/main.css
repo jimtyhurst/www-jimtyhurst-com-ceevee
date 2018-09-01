@@ -77,13 +77,19 @@ code, kbd, pre, samp {
    font-size: 1em;
 }
 
+.latin-vocabulary {
+  font-style: italic;
+}
+
 pre {
    white-space: pre;
    white-space: pre-wrap;
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q {
+  quotes: "“" "”" "‘" "’";
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -393,11 +399,11 @@ dd { margin: 0 0 0 20px; }
 	counter-increment: definitions;
 }
 .dictionary-style dd:before {
-  .pagination {
 	content: counter(definitions, decimal) ". ";
 }
 
 /* Pagination */
+.pagination {
    margin: 36px auto;
    text-align: center;
 }
@@ -840,7 +846,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -867,14 +873,14 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 52px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
+  font: 18px/1.9em "librebaskerville-regular", sans-serif;
   color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
@@ -1036,8 +1042,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 240px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -1477,71 +1483,12 @@ ul#nav li.current a {
   opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-  background: #212121;
-  padding-top: 66px;
-  padding-bottom: 48px;
-}
-#call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#call-to-action h1 span {
-  display: none;
-}
-#call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-#call-to-action .action {
-  margin-top: 12px;
-}
-#call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#call-to-action h2 a {
-  color: inherit;
-}
-#call-to-action p {
-  color: #636363;
-  font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-  background: #ffffff;
-  color: #0d0d0d;
-}
-#call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
-  color: #d8d8d8;
-}
-
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
@@ -1984,7 +1931,7 @@ footer .social li:first-child {
   /* header styles
  ------------------------------------------------------------------ */
  header .banner-text h1 {
-    font: 80px/1.1em 'opensans-bold', sans-serif;
+    font: 48px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
  }
@@ -1999,11 +1946,11 @@ footer .social li:first-child {
  ------------------------------------------------------------------ */
  header .banner { padding-bottom: 12px; }
  header .banner-text h1 {
-    font: 78px/1.1em 'opensans-bold', sans-serif;
+    font: 48px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
  }
  header .banner-text h3 {
-    font: 17px/1.9em 'librebaskerville-regular', serif;
+    font: 17px/1.9em 'librebaskerville-regular', sans-serif;
     width: 80%;
  }
  header .banner-text hr {
@@ -2012,7 +1959,7 @@ footer .social li:first-child {
  }
  /* nav-wrap */
  #nav-wrap {
-    font: 11px ;
+    font: 11px 'opensans-bold', sans-serif ;
     letter-spacing: 1.5px;
  }
 
@@ -2020,8 +1967,8 @@ footer .social li:first-child {
  /* About Section
  ------------------------------------------------------------------- */
  #about .profile-pic {
-    width: 114px;
-    height: 114px;
+    width: 120px;
+    height: 160px;
     margin-left: 12px;
  }
  #about .contact-details { width: 50%; }
@@ -2029,8 +1976,9 @@ footer .social li:first-child {
 
  /* Resume Section
  ------------------------------------------------------------------- */
- #resume h1 { font: 16px/24px  }
+ #resume h1 { font: 16px/24px opensans-light, sans-serif; }
  #resume .main-col { padding-right: 5%; }
+ #resume .download { width: 50%; }
 
  /* Testimonials Section
  ------------------------------------------------------------------- */
@@ -2041,13 +1989,6 @@ footer .social li:first-child {
  #testimonials blockquote p {
     font-size: 22px;
     line-height: 46px;
- }
-
-  /* Call to Action Section
- ------------------------------------------------------------------- */
- #call-to-action .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
  }
 
  /* Contact Section
@@ -2161,9 +2102,11 @@ footer .social li:first-child {
     padding-bottom: 12px;
     padding-top: 6px;
  }
- header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+ header .banner-text h1 {
+     font: 40px/1.1em 'opensans-bold', sans-serif;
+ }
  header .banner-text h3 {
-    font: 16px/1.9em 'librebaskerville-regular', serif;
+    font: 16px/1.9em 'librebaskerville-regular', sans-serif;
     width: 85%;
  }
  header .banner-text hr {
@@ -2206,20 +2149,6 @@ footer .social li:first-child {
  #resume h3, #resume .info { text-align: center; }
 
  .bars { width: 100%; }
-
-
- /* Call To Action Section
- /* ----------------------------------------------------------------- */
- #call-to-action { text-align: center; }
- #call-to-action h1 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
- }
- #call-to-action h1 span { display: block; }
- #call-to-action .header-col h1:before { content: none; }
- #call-to-action p { font-size: 15px; }
 
 
  /* Portfolio Section
@@ -2321,7 +2250,7 @@ footer .social li:first-child {
  -------------------------------------------------------------------- */
  header .banner { padding-top: 24px; }
  header .banner-text h1 {
-    font: 40px/1.1em 'opensans-bold', sans-serif;
+    font: 32px/1.1em 'opensans-bold', sans-serif;
     margin: 0 auto 24px auto;
  }
  header .banner-text h3 {
@@ -2341,12 +2270,3 @@ footer .social li:first-child {
  footer .social li { margin-left: 14px; }
 
 }
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
 
 const Work = () => (
   <div className="row work">

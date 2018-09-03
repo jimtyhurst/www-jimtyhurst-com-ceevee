@@ -160,9 +160,9 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+  color: #313131;
 	font-family: 'opensans-bold', sans-serif;
-   font-weight: normal;
+  font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
@@ -823,8 +823,8 @@ properly.
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
+   g. Testimonials Section [Removed 2018-09-02 jim@tyhurst.com]
+   h. Contact Section [Removed 2018-09-02 jim@tyhurst.com]
    i. Footer
 
 ===================================================================== */
@@ -1129,6 +1129,43 @@ ul#nav li.current a {
 
   margin-top: 6px;
 }
+
+/* ------------------------------------------------------------------ */
+/* c. Publications Section
+/* ------------------------------------------------------------------ */
+
+#publications {
+  background: #2b2b2b;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+#publications a,
+#publications a:visited {
+  color: #fff;
+}
+#publications a:hover,
+#publications a:focus {
+  color: #11abb0;
+}
+#publications h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#publications h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+#publications p {
+  line-height: 20px;
+  color: #7a7a7a;
+}
+#publications .main-col {
+  padding-right: 10%;
+}
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -1483,80 +1520,6 @@ ul#nav li.current a {
   opacity: 0;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-  background: #1f1f1f no-repeat center center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed;
-
-  position: relative;
-  min-height: 200px;
-  width: 100%;
-  overflow: hidden;
-}
-#testimonials .text-container {
-  padding-top: 96px;
-  padding-bottom: 66px;
-}
-#testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#testimonials h1 span {
-  display: none;
-}
-#testimonials .header-col {
-  padding-top: 9px;
-}
-#testimonials .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f10d";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-  margin: 0 0px 30px 0px;
-  padding-left: 0;
-  position: relative;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before {
-  content: none;
-}
-#testimonials blockquote p {
-  font-family: "librebaskerville-italic", serif;
-  padding: 0;
-  font-size: 24px;
-  line-height: 48px;
-  color: #fff;
-}
-#testimonials blockquote cite {
-  display: block;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 18px;
-  color: #fff;
-}
-#testimonials blockquote cite:before {
-  content: "\2014 \0020";
-}
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited {
-  color: #8b9798;
-  border: none;
-}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -1669,111 +1632,9 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
-
-#contact {
-  background: #191919;
-  padding-top: 96px;
-  padding-bottom: 102px;
-  color: #636363;
-}
-#contact .section-head {
-  margin-bottom: 42px;
-}
-
-#contact a,
-#contact a:visited {
-  color: #11abb0;
-}
-#contact a:hover,
-#contact a:focus {
-  color: #fff;
-}
-
-#contact h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#contact h1 span {
-  display: none;
-}
-#contact h1:before {
-  font-family: "FontAwesome";
-  content: "\f0e0";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #ebeeee;
-}
-
-#contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
-  padding-right: 3%;
-}
-#contact .header-col {
-  padding-top: 6px;
-}
-
-/* contact form */
-#contact form {
-  margin-bottom: 30px;
-}
-#contact label {
-  font: 15px/24px "opensans-bold", sans-serif;
-  margin: 12px 0;
-  color: #ebeeee;
-  display: inline-block;
-  float: left;
-  width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-  padding: 18px 20px;
-  color: #eee;
-  background: #373233;
-  margin-bottom: 42px;
-  border: 0;
-  outline: none;
-  font-size: 15px;
-  line-height: 24px;
-  width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-  color: #fff;
-  background-color: #11abb0;
-}
-#contact button.submit {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-  background: #0d0d0d;
-  border: none;
-  cursor: pointer;
-  height: auto;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 26%;
-}
-#contact button.submit:hover {
-  color: #0d0d0d;
-  background: #fff;
-}
-#contact span.required {
-  color: #11abb0;
-  font-size: 13px;
-}
+/* #contact references removed.
+ * Can the #message references be removed?
+ */
 #message-warning,
 #message-success {
   display: none;
@@ -1944,63 +1805,64 @@ footer .social li:first-child {
 
   /* header styles
  ------------------------------------------------------------------ */
- header .banner { padding-bottom: 12px; }
- header .banner-text h1 {
+  header .banner {
+    padding-bottom: 12px;
+  }
+
+  header .banner-text h1 {
     font: 48px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
- }
- header .banner-text h3 {
+  }
+
+  header .banner-text h3 {
     font: 17px/1.9em 'librebaskerville-regular', sans-serif;
     width: 80%;
- }
- header .banner-text hr {
+  }
+
+  header .banner-text hr {
     width: 65%;
     margin: 12px auto;
- }
- /* nav-wrap */
- #nav-wrap {
-    font: 11px 'opensans-bold', sans-serif ;
+  }
+
+  /* nav-wrap */
+  #nav-wrap {
+    font: 11px 'opensans-bold', sans-serif;
     letter-spacing: 1.5px;
- }
+  }
 
-
- /* About Section
- ------------------------------------------------------------------- */
- #about .profile-pic {
+  /* About Section
+  ------------------------------------------------------------------- */
+  #about .profile-pic {
     width: 120px;
     height: 160px;
     margin-left: 12px;
- }
- #about .contact-details { width: 50%; }
- #about .download { width: 50%; }
+  }
 
- /* Resume Section
- ------------------------------------------------------------------- */
- #resume h1 { font: 16px/24px opensans-light, sans-serif; }
- #resume .main-col { padding-right: 5%; }
- #resume .download { width: 50%; }
+  #about .contact-details {
+    width: 50%;
+  }
 
- /* Testimonials Section
- ------------------------------------------------------------------- */
- #testimonials .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
- }
- #testimonials blockquote p {
-    font-size: 22px;
-    line-height: 46px;
- }
+  #about .download {
+    width: 50%;
+  }
 
- /* Contact Section
- ------------------------------------------------------------------- */
- #contact .section-head { margin-bottom: 30px; }
- #contact .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
- }
- #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+  /* Resume Section
+  ------------------------------------------------------------------- */
+  #resume h1 {
+    font: 16px/24px opensans-light, sans-serif;
+  }
 
+  #resume .main-col {
+    padding-right: 5%;
+  }
 
+  #resume .download {
+    width: 50%;
+  }
+
+  /* Publications Section
+  ------------------------------------------------------------------- */
+  /* No modifications at this size media. */
 }
 
 /* mobile wide/smaller tablets
@@ -2151,66 +2013,27 @@ footer .social li:first-child {
  .bars { width: 100%; }
 
 
+  /* Publications Section
+  --------------------------------------------------------------------- */
+  #publications .header-col {
+    padding-top: 0;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  #publications h1 { letter-spacing: 3px; }
+  #publications .main-col { padding-right: 30px; }
+
+
  /* Portfolio Section
  /* ----------------------------------------------------------------- */
  #portfolio-wrapper .columns { margin-bottom: 40px; }
  .popup-modal {	max-width: 85%; }
 
 
- /* Testimonials Section
- ----------------------------------------------------------------------- */
- #testimonials .text-container { text-align: center; }
- #testimonials h1 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
- }
- #testimonials h1 span { display: block; }
- #testimonials .header-col h1:before { content: none; }
- #testimonials blockquote { padding-bottom: 24px; }
- #testimonials blockquote p {
-    font-size: 20px;
-    line-height: 42px;
- }
-
  /* Control Nav */
  .flex-control-nav {
     text-align: center;
     margin-left: -30px;
- }
-
-
- /* contact Section
- ----------------------------------------------------------------------- */
- #contact { padding-bottom: 66px; }
- #contact .section-head { margin-bottom: 12px; }
- #contact .section-head h1 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
- }
- #contact h1 span { display: block; }
- #contact .header-col { padding-top: 0; }
- #contact .header-col h1:before { content: none;	}
- #contact .section-head p.lead { text-align: center;}
-
- /* form */
- #contact label {
-    float: none;
-    width: 100%;
- }
- #contact input,
- #contact textarea,
- #contact select {
-     margin-bottom: 6px;
-    width: 100%;
- }
- #contact button.submit { margin: 30px 0 24px 0; }
- #message-warning, #message-success {
-    width: 100%;
-    margin-left: 0;
  }
 
 

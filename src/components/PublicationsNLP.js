@@ -46,7 +46,7 @@ const PublicationsNLP = () => (
             "Logical Forms for English Sentences".
             Ph.D. dissertation at the University of California, Los Angeles.
             <br />
-            <a href="http://www.tyhurst.com/pub/dissertation/JimTyhurst-LogicalForms-1990-Abstract.pdf">http://www.tyhurst.com/pub/dissertation/JimTyhurst-LogicalForms-1990-Abstract.pdf</a>
+            <a href="http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf">http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf</a>
           </p>
         </div>
       </div>

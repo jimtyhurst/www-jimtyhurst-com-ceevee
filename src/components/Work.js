@@ -22,7 +22,7 @@ const Work = () => (
             {" "}<span><a href="http://www.tyhurst.com/">independent consultant</a></span>{" "}
             since 2000, contracting
             with companies who need to write their own software.
-            I have worked in the roles of applications architect, R developer, and
+            I have worked in the roles of application architect, R developer, and
             Enterprise Java developer.
             Since 2011, I have been designing and developing RESTful web services
             for enterprise applications.

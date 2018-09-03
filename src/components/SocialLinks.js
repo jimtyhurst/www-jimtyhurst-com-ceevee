@@ -11,22 +11,34 @@ const SocialLinks = () => (
   <ul className="social">
     <li>
       <a href="https://twitter.com/JimTyhurst">
-        <FaTwitter />
+        <div className="tooltip">
+          <FaTwitter />
+          <span className="tooltiptext">Twitter</span>
+        </div>
       </a>
     </li>
     <li>
       <a href="https://github.com/jimtyhurst">
-        <FaGithub />
+        <div className="tooltip">
+          <FaGithub />
+          <span className="tooltiptext">GitHub</span>
+        </div>
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/jimtyhurst">
-        <FaLinkedin />
+        <div className="tooltip">
+          <FaLinkedin />
+          <span className="tooltiptext">LinkedIn</span>
+        </div>
       </a>
     </li>
     <li>
       <a href="https://plus.google.com/u/0/+JimTyhurst">
-        <FaGooglePlus />
+        <div className="tooltip">
+          <FaGooglePlus />
+          <span className="tooltiptext">Google Plus</span>
+        </div>
       </a>
     </li>
   </ul>

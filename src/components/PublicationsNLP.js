@@ -14,7 +14,8 @@ const PublicationsNLP = () => (
           <p>
             Tyhurst, Jim. 2011.
             Model-Theory Semantics implemented in Clojure.
-            Lightening talk presented at Lambda Lounge. St. Louis, MO.
+            Lightning talk presented at{" "}
+            <a href="https://lambdalounge.org/">Lambda Lounge user group</a>. St. Louis, MO.
             April 7, 2011.
             <br />
             <a href="http://www.tyhurst.com/pub/JimTyhurst-ModelTheorySemantics-20110407.pdf">http://www.tyhurst.com/pub/JimTyhurst-ModelTheorySemantics-20110407.pdf</a>

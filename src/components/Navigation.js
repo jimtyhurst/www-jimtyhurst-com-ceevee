@@ -21,7 +21,7 @@ const Navigation = () => (
       </li>
       <li>
         <a className="smoothscroll" href="#publications">
-          Publications
+          Presentations
         </a>
       </li>
       <li>

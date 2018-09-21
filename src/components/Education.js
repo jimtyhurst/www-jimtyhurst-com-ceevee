@@ -15,40 +15,42 @@ const Education = () => (
             University of California, Los Angeles
             (<a href="http://linguistics.ucla.edu/">UCLA</a>)
           </h3>
-          <p className="info">
-            <a href="http://linguistics.ucla.edu/ph-d-recipients/">Ph.D. in Linguistics</a>
-            <br />
-              Dissertation: "<a href='http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf'>Logical Forms for English Sentences</a>"
-          </p>
-          <p>
-            My dissertation investigated the relationship between syntactic structure
-            and semantic interpretation, in order to develop an explicit model of the
-            mapping from surface syntactic forms to a level of Logical Form (LF) and
-            finally to truth values. The mapping from surface structure to LF was done
-            within the framework of the
-            {" "}<a href="https://en.wikipedia.org/wiki/Government_and_binding_theory">Government and Binding</a>{" "}
-            (GB) theory of grammar.
-            A computationally tractable interpretation algorithm was given for mapping
-            logical forms onto truth values within an extensional
-            {" "}<a href="https://plato.stanford.edu/entries/model-theory/">model-theory semantics</a>.
-            The algorithm for interpreting logical forms was based on
-            work in
-            {" "}<a href="https://plato.stanford.edu/entries/generalized-quantifiers/">generalized quantifiers</a>,
-            which enables one to provide a uniform interpretation for a wide range of
-            determiners, including those which are not first-order definable (e.g. "most")
-            and those constructed from
-            {" "}<a href="https://www.gutenberg.org/ebooks/36884">Boolean</a>{" "}
-            combinations of determiners
-            (e.g. "some but not all", "at least six but not more than twelve").
-            I also gave an analysis of referentially dependent noun phrases that
-            inherently require a higher-order analysis, such as
-            {" "}<a href="https://en.wikipedia.org/wiki/Reciprocal_pronoun">reciprocals</a>{" "}
-            (e.g. "each other", "each other's children").
-          </p>
-          <p>
-            Honors: W.M. Keck Research Award for "Semantic Representations for English"
-            project on the Connection Machine.
-          </p>
+          <div className="info">
+            <p>
+              <a href="http://linguistics.ucla.edu/ph-d-recipients/">Ph.D. in Linguistics</a>
+              <br />
+                Dissertation: "<a href='http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf'>Logical Forms for English Sentences</a>"
+            </p>
+            <p>
+              My dissertation investigated the relationship between syntactic structure
+              and semantic interpretation, in order to develop an explicit model of the
+              mapping from surface syntactic forms to a level of Logical Form (LF) and
+              finally to truth values. The mapping from surface structure to LF was done
+              within the framework of the
+              {" "}<a href="https://en.wikipedia.org/wiki/Government_and_binding_theory">Government and Binding</a>{" "}
+              (GB) theory of grammar.
+              A computationally tractable interpretation algorithm was given for mapping
+              logical forms onto truth values within an extensional
+              {" "}<a href="https://plato.stanford.edu/entries/model-theory/">model-theory semantics</a>.
+              The algorithm for interpreting logical forms was based on
+              work in
+              {" "}<a href="https://plato.stanford.edu/entries/generalized-quantifiers/">generalized quantifiers</a>,
+              which enables one to provide a uniform interpretation for a wide range of
+              determiners, including those which are not first-order definable (e.g. "most")
+              and those constructed from
+              {" "}<a href="https://www.gutenberg.org/ebooks/36884">Boolean</a>{" "}
+              combinations of determiners
+              (e.g. "some but not all", "at least six but not more than twelve").
+              I also gave an analysis of referentially dependent noun phrases that
+              inherently require a higher-order analysis, such as
+              {" "}<a href="https://en.wikipedia.org/wiki/Reciprocal_pronoun">reciprocals</a>{" "}
+              (e.g. "each other", "each other's children").
+            </p>
+            <p>
+              Honors: W.M. Keck Research Award for "Semantic Representations for English"
+              project on the Connection Machine.
+            </p>
+          </div>
         </div>
       </div>
 

@@ -1159,8 +1159,9 @@ ul#nav li.current a {
   padding-right: 10%;
 }
 
-.education,
-.work {
+.work,
+.clients,
+.education {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #000000;

@@ -19,7 +19,7 @@ const About = () => (
           My previous experience developing enterprise Java applications and microservices
           is proving useful to productize new machine learning applications.
           For example, I recently implemented some statistical analyses in
-          {" "}<a href="https://www.r-project.org/">R</a>{" "}
+          {" "}<a href="https://www.r-project.org/" target="_blank">R</a>{" "}
           and then productized that application for deployment as a web service.
           My experience as an application architect is especially useful working with
           data scientists, helping them to turn their preliminary coding into released products.

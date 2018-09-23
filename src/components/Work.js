@@ -34,7 +34,7 @@ const Work = () => (
               Since 2011, I have been designing and developing RESTful web services
               for enterprise applications.
               Since 2016, I have been writing
-              {" "}<a href="https://www.r-project.org/">R</a>{" "}
+              {" "}<a href="https://www.r-project.org/" target="_blank">R</a>{" "}
               applications for statistical analysis,
               deployed as RESTful web services. Most recently, I have been working in
               Python, developing data pipelines and neural networks.

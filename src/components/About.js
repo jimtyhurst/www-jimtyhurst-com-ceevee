@@ -7,7 +7,7 @@ const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="" />
+        <img className="profile-pic" src={profilePic} alt="profile picture" />
       </div>
       <div className="nine columns main-col">
         <h2>About Me</h2>
@@ -23,20 +23,16 @@ const About = () => (
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jim Tyhurst, Ph.D.</span>
+              Jim Tyhurst, Ph.D.
               <br />
-              <span>
-                Portland, Oregon, USA
-              </span>
+              Portland, Oregon, USA
               <br />
-              <span>+1.503.704.0389</span>
-              <br />
-              <span>jim@tyhurst.com</span>
+              jim@tyhurst.com
             </p>
           </div>
           <div className="columns download">
             <p>
-              <a href="http://www.tyhurst.com/pub/JimTyhurst_Resume.pdf" className="button">
+              <a href="static/resources/JimTyhurst_Resume.pdf" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

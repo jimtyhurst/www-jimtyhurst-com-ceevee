@@ -1,5 +1,7 @@
 import React from "react";
 
+import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
+
 const Clients = () => (
   <div className="row clients">
     <div className="three columns header-col">
@@ -14,7 +16,7 @@ const Clients = () => (
           <div className="info">
             <p>
               See my{" "}
-              <a href="static/resources/JimTyhurst_Resume.pdf" target="_blank">resume</a>
+              <a href={resumePdf} target="_blank">resume</a>
               {" "}for a listing of my consulting clients and projects.
             </p>
           </div>

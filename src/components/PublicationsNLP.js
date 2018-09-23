@@ -1,5 +1,8 @@
 import React from "react";
 
+import ModelTheorySemanticsPdf from "../assets/resources/JimTyhurst-ModelTheorySemantics-20110407.pdf"
+import Rsna2001Pdf from "../assets/resources/structurad-rsna-2001.pdf"
+
 const PublicationsNLP = () => (
   <div className="row publications-nlp">
     <div className="three columns header-col">
@@ -18,7 +21,7 @@ const PublicationsNLP = () => (
             <a href="https://lambdalounge.org/" target="_blank">Lambda Lounge user group</a>. St. Louis, MO.
             April 7, 2011.
             <br />
-            <a href="static/resources/JimTyhurst-ModelTheorySemantics-20110407.pdf" target="_blank">http://www.jimtyhurst.com/static/resources/JimTyhurst-ModelTheorySemantics-20110407.pdf</a>
+            <a href={ModelTheorySemanticsPdf} target="_blank">{ModelTheorySemanticsPdf}</a>
             <br />
             <a href="https://github.com/jimtyhurst/generalized-quantifiers" target="_blank">https://github.com/jimtyhurst/generalized-quantifiers</a>
           </p>
@@ -35,7 +38,7 @@ const PublicationsNLP = () => (
             Symposium of the Radiological Society of North America (RSNA)
             2001 Annual Meeting, November 25 - 30, 2001.
             <br />
-            <a href="static/resources/structurad-rsna-2001.pdf" target="_blank">http://www.jimtyhurst.com/static/resources/structurad-rsna-2001.pdf</a>
+            <a href={Rsna2001Pdf} target="_blank">{Rsna2001Pdf}</a>
           </p>
         </div>
       </div>

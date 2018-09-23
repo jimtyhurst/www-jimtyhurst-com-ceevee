@@ -1,5 +1,7 @@
 import React from "react";
 
+import ServiceGateways2006Pdf from "../assets/resources/Tyhurst_Jim_ServiceGateways_20060719.pdf";
+
 const PublicationsFrameworks = () => (
   <div className="row publications-frameworks">
     <div className="three columns header-col">
@@ -17,7 +19,7 @@ const PublicationsFrameworks = () => (
             Presented at Dr. Dobb's Architecture & Design World.
             Chicago, IL. July 17 - 20, 2006.
             <br />
-            <a href="static/resources/Tyhurst_Jim_ServiceGateways_20060719.pdf" target="_blank">http://www.jimtyhurst.com/static/resources/Tyhurst_Jim_ServiceGateways_20060719.pdf</a>
+            <a href={ServiceGateways2006Pdf} target="_blank">{ServiceGateways2006Pdf}</a>
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic from "../assets/images/JimTyhurst.jpg";
+import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
 
 const About = () => (
   <section id="about">
@@ -36,7 +37,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="static/resources/JimTyhurst_Resume.pdf" target="_blank" className="button">
+              <a href={resumePdf} target="_blank" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

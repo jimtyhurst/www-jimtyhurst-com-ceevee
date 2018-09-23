@@ -32,7 +32,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="static/resources/JimTyhurst_Resume.pdf" className="button">
+              <a href="static/resources/JimTyhurst_Resume.pdf"  target="_blank" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

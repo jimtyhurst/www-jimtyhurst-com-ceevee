@@ -10,7 +10,7 @@ import {
 const SocialLinks = () => (
   <ul className="social">
     <li>
-      <a href="https://twitter.com/JimTyhurst">
+      <a href="https://twitter.com/JimTyhurst" target="_blank">
         <div className="tooltip">
           <FaTwitter />
           <span className="tooltiptext">Twitter</span>
@@ -18,7 +18,7 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="https://github.com/jimtyhurst">
+      <a href="https://github.com/jimtyhurst" target="_blank">
         <div className="tooltip">
           <FaGithub />
           <span className="tooltiptext">GitHub</span>
@@ -26,7 +26,7 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/jimtyhurst">
+      <a href="https://www.linkedin.com/in/jimtyhurst" target="_blank">
         <div className="tooltip">
           <FaLinkedin />
           <span className="tooltiptext">LinkedIn</span>
@@ -34,7 +34,7 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="https://plus.google.com/u/0/+JimTyhurst">
+      <a href="https://plus.google.com/u/0/+JimTyhurst" target="_blank">
         <div className="tooltip">
           <FaGooglePlus />
           <span className="tooltiptext">Google Plus</span>

@@ -1053,6 +1053,10 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
+ul#nav li a:hover,
+ul#nav li a:focus {
+  color: #fb5e2a;
+}
 ul#nav li.current a {
   color: #fb5e2a;
 }

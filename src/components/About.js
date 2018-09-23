@@ -12,12 +12,16 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          I have done a lot of Enterprise Java work, especially developing web services.
-          In addition, during the last few years, I have been working more in the
-          area of data science.
-          For example, I implemented statistical analyses in
+          I am an experienced developer and application architect,
+          who has been expanding into statistical analysis, machine learning, and deep learning
+          for the past few years.
+          My previous experience developing enterprise Java applications and microservices
+          is proving useful to productize new machine learning applications.
+          For example, I recently implemented some statistical analyses in
           {" "}<a href="https://www.r-project.org/">R</a>{" "}
           and then productized that application for deployment as a web service.
+          My experience as an application architect is especially useful working with
+          data scientists, helping them to turn their preliminary coding into released products.
         </p>
         <div className="row">
           <div className="columns contact-details">
@@ -32,7 +36,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="static/resources/JimTyhurst_Resume.pdf"  target="_blank" className="button">
+              <a href="static/resources/JimTyhurst_Resume.pdf" target="_blank" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

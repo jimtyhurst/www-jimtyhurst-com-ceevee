@@ -13,13 +13,13 @@ const Education = () => (
         <div className="twelve columns">
           <h3>
             University of California, Los Angeles
-            (<a href="http://linguistics.ucla.edu/">UCLA</a>)
+            (<a href="http://linguistics.ucla.edu/" target="_blank">UCLA</a>)
           </h3>
           <div className="info">
             <p>
-              <a href="http://linguistics.ucla.edu/ph-d-recipients/">Ph.D. in Linguistics</a>
+              <a href="http://linguistics.ucla.edu/ph-d-recipients/" target="_blank">Ph.D. in Linguistics</a>
               <br />
-                Dissertation: "<a href='http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf'>Logical Forms for English Sentences</a>"
+                Dissertation: "<a href='http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf' target="_blank">Logical Forms for English Sentences</a>"
             </p>
             <p>
               My dissertation investigated the relationship between syntactic structure
@@ -27,23 +27,23 @@ const Education = () => (
               mapping from surface syntactic forms to a level of Logical Form (LF) and
               finally to truth values. The mapping from surface structure to LF was done
               within the framework of the
-              {" "}<a href="https://en.wikipedia.org/wiki/Government_and_binding_theory">Government and Binding</a>{" "}
+              {" "}<a href="https://en.wikipedia.org/wiki/Government_and_binding_theory" target="_blank">Government and Binding</a>{" "}
               (GB) theory of grammar.
               A computationally tractable interpretation algorithm was given for mapping
               logical forms onto truth values within an extensional
-              {" "}<a href="https://plato.stanford.edu/entries/model-theory/">model-theory semantics</a>.
+              {" "}<a href="https://plato.stanford.edu/entries/model-theory/" target="_blank">model-theory semantics</a>.
               The algorithm for interpreting logical forms was based on
               work in
-              {" "}<a href="https://plato.stanford.edu/entries/generalized-quantifiers/">generalized quantifiers</a>,
+              {" "}<a href="https://plato.stanford.edu/entries/generalized-quantifiers/" target="_blank">generalized quantifiers</a>,
               which enables one to provide a uniform interpretation for a wide range of
               determiners, including those which are not first-order definable (e.g. "most")
               and those constructed from
-              {" "}<a href="https://www.gutenberg.org/ebooks/36884">Boolean</a>{" "}
+              {" "}<a href="https://www.gutenberg.org/ebooks/36884" target="_blank">Boolean</a>{" "}
               combinations of determiners
               (e.g. "some but not all", "at least six but not more than twelve").
               I also gave an analysis of referentially dependent noun phrases that
               inherently require a higher-order analysis, such as
-              {" "}<a href="https://en.wikipedia.org/wiki/Reciprocal_pronoun">reciprocals</a>{" "}
+              {" "}<a href="https://en.wikipedia.org/wiki/Reciprocal_pronoun" target="_blank">reciprocals</a>{" "}
               (e.g. "each other", "each other's children").
             </p>
             <p>
@@ -60,9 +60,9 @@ const Education = () => (
             University of California, Los Angeles (UCLA)
           </h3>
           <p className="info">
-            M.A. <a href="http://linguistics.ucla.edu/">Linguistics</a>
+            M.A. <a href="http://linguistics.ucla.edu/" target="_blank">Linguistics</a>
             <br />
-            Thesis: "<a href="http://dla.library.upenn.edu/dla/olac/record.html?id=gial_edu_22494">Tone in Kenyang Noun Phrases</a>"
+            Thesis: "<a href="http://dla.library.upenn.edu/dla/olac/record.html?id=gial_edu_22494" target="_blank">Tone in Kenyang Noun Phrases</a>"
           </p>
         </div>
       </div>
@@ -71,12 +71,12 @@ const Education = () => (
         <div className="twelve columns">
           <h3>
             University of California, Irvine
-            (<a href="https://www.uci.edu/">UCI</a>)
+            (<a href="https://www.uci.edu/" target="_blank">UCI</a>)
           </h3>
           <p className="info">
-            B.S. <a href="https://www.cs.uci.edu/">Computer Science</a>
+            B.S. <a href="https://www.cs.uci.edu/" target="_blank">Computer Science</a>
             <br />
-            B.A. <a href="https://www.math.uci.edu/">Mathematics</a>
+            B.A. <a href="https://www.math.uci.edu/" target="_blank">Mathematics</a>
             <br />
             Honors: Graduated<span className="latin-vocabulary">Cum Laude</span>in both degrees.
           </p>

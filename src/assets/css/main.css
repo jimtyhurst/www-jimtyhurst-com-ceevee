@@ -1053,6 +1053,10 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
+ul#nav li a:hover,
+ul#nav li a:focus {
+  color: #fb5e2a;
+}
 ul#nav li.current a {
   color: #fb5e2a;
 }
@@ -1083,7 +1087,7 @@ ul#nav li.current a {
   margin-bottom: 12px;
 }
 #about p {
-  line-height: 30px;
+  line-height: 24px;
   color: #b3b7bc;
 }
 #about .profile-pic {
@@ -1155,8 +1159,9 @@ ul#nav li.current a {
   padding-right: 10%;
 }
 
-.education,
-.work {
+.work,
+.clients,
+.education {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #000000;

@@ -2,6 +2,7 @@ import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic from "../assets/images/JimTyhurst.jpg";
+import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
 
 const About = () => (
   <section id="about">
@@ -18,7 +19,7 @@ const About = () => (
           My previous experience developing enterprise Java applications and microservices
           is proving useful to productize new machine learning applications.
           For example, I recently implemented some statistical analyses in
-          {" "}<a href="https://www.r-project.org/">R</a>{" "}
+          {" "}<a href="https://www.r-project.org/" target="_blank">R</a>{" "}
           and then productized that application for deployment as a web service.
           My experience as an application architect is especially useful working with
           data scientists, helping them to turn their preliminary coding into released products.
@@ -36,7 +37,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="static/resources/JimTyhurst_Resume.pdf" target="_blank" className="button">
+              <a href={resumePdf} target="_blank" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

@@ -1,5 +1,7 @@
 import React from "react";
 
+import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
+
 const Work = () => (
   <div className="row work">
     <div className="three columns header-col">
@@ -18,7 +20,7 @@ const Work = () => (
           </h3>
           <div className="info">
             <p>
-              <a href="static/resources/JimTyhurst_Resume.pdf" target="_blank">
+              <a href={resumePdf} target="_blank">
                 Application Architect and Developer
               </a>
             </p>
@@ -31,7 +33,9 @@ const Work = () => (
               Enterprise Java developer, writing Java since 1997.
               Since 2011, I have been designing and developing RESTful web services
               for enterprise applications.
-              Since 2016, I have been writing R applications for statistical analysis,
+              Since 2016, I have been writing
+              {" "}<a href="https://www.r-project.org/" target="_blank">R</a>{" "}
+              applications for statistical analysis,
               deployed as RESTful web services. Most recently, I have been working in
               Python, developing data pipelines and neural networks.
             </p>

@@ -20,9 +20,10 @@ const Work = () => (
           </h3>
           <div className="info">
             <p>
-              <a href={resumePdf} target="_blank">
-                Application Architect and Developer
-              </a>
+              Application Architect and Developer
+              (<a href={resumePdf} target="_blank">
+                PDF resume
+              </a>)
             </p>
             <p>
               I have been an

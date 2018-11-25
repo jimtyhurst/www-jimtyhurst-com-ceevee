@@ -20,7 +20,7 @@ const Work = () => (
           </h3>
           <div className="info">
             <p>
-              Application Architect and Developer
+              Machine Learning Architect and Developer
               (<a href={resumePdf} target="_blank">
                 PDF resume
               </a>)
@@ -30,8 +30,8 @@ const Work = () => (
               {" "}<span><a href="http://www.tyhurst.com/" target="_blank">independent consultant</a></span>{" "}
               since 2000, contracting
               with companies who need to write their own software.
-              I have worked in the roles of application architect, R developer, and
-              Enterprise Java developer, writing Java since 1997.
+              I have worked in the roles of machine learning architect, application architect,
+              R developer, and Enterprise Java developer, writing Java since 1997.
               Since 2011, I have been designing and developing RESTful web services
               for enterprise applications.
               Since 2016, I have been writing
@@ -41,7 +41,7 @@ const Work = () => (
               Python, developing data pipelines and neural networks.
             </p>
             <p>
-              I have used object-oriented design, functional languages,
+              I have used machine learning, object-oriented design, functional languages,
               artificial intelligence techniques, relational databases, and
               NoSQL databases.
               My understanding of alternative architectures leads to well-structured,

@@ -41,9 +41,10 @@ const Work = () => (
               Python, developing data pipelines and neural networks.
             </p>
             <p>
-              I have used machine learning, object-oriented design, functional languages,
-              artificial intelligence techniques, relational databases, and
-              NoSQL databases.
+              I have used machine learning, rule-based systems,
+              object-oriented design, functional languages,
+              artificial intelligence techniques,
+              relational databases, and NoSQL databases.
               My understanding of alternative architectures leads to well-structured,
               maintainable code based on design patterns when appropriate and
               supported by automated unit tests.

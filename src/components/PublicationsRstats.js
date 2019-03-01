@@ -18,9 +18,9 @@ const PublicationsRstats = () => (
             Lightening talk presented at CascadiaRConf 2017, Portland, OR.
             June 3, 2017.
             <br />
-            <a href="https://github.com/jimtyhurst/i18nr" target="_blank">https://github.com/jimtyhurst/i18nr</a>
-            <br />
             <a href="https://cascadiarconf.com/years/2017/" target="_blank">https://cascadiarconf.com/years/2017/</a>
+            <br />
+            <a href="https://github.com/jimtyhurst/i18nr" target="_blank">https://github.com/jimtyhurst/i18nr</a>
           </p>
         </div>
       </div>

@@ -26,6 +26,11 @@ const Navigation = () => (
         </Link>
       </li>
       <li>
+        <Link className="smoothscroll" to="#portfolio">
+          Portfolio
+        </Link>
+      </li>
+      <li>
         <Link className="smoothscroll" to="#footer">
           Footer
         </Link>

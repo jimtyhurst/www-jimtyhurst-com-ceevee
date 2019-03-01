@@ -6,7 +6,7 @@ const Work = () => (
   <div className="row work">
     <div className="three columns header-col">
       <h1>
-        <span>Work</span>
+        <span>Consulting since 2000</span>
       </h1>
     </div>
 
@@ -20,7 +20,7 @@ const Work = () => (
           </h3>
           <div className="info">
             <p>
-              Machine Learning Architect and Developer
+              Application Architect and Developer
               (<a href={resumePdf} target="_blank">
                 PDF resume
               </a>)
@@ -30,7 +30,7 @@ const Work = () => (
               {" "}<span><a href="http://www.tyhurst.com/" target="_blank">independent consultant</a></span>{" "}
               since 2000, contracting
               with companies who need to write their own software.
-              I have worked in the roles of machine learning architect, application architect,
+              I have worked in the roles of machine learning engineer, application architect,
               R developer, and Enterprise Java developer, writing Java since 1997.
               Since 2011, I have been designing and developing RESTful web services
               for enterprise applications.

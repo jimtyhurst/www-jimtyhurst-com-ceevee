@@ -7,8 +7,8 @@ import PublicationsWebBasedDevelopment from "./PublicationsWebBasedDevelopment";
 
 const Publications = () => (
   <section id="publications">
-    <PublicationsNLP />
     <PublicationsRstats />
+    <PublicationsNLP />
     <PublicationsFrameworks />
     <PublicationsWebBasedDevelopment />
   </section>

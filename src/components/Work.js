@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
 
 const Work = () => (
@@ -21,9 +20,9 @@ const Work = () => (
           <div className="info">
             <p>
               Application Architect and Developer
-              (<Link href={resumePdf} target="_blank" rel="noopener noreferrer">
+              (<a href={resumePdf} target="_blank" rel="noopener noreferrer">
                 PDF resume
-              </Link>)
+              </a>)
             </p>
             <p>
               I have been an

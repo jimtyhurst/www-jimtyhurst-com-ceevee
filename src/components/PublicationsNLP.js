@@ -18,12 +18,12 @@ const PublicationsNLP = () => (
             Tyhurst, Jim. 2011.
             Model-Theory Semantics implemented in Clojure.
             Lightning talk presented at{" "}
-            <a href="https://lambdalounge.org/" target="_blank">Lambda Lounge user group</a>. St. Louis, MO.
+            <a href="https://lambdalounge.org/" target="_blank" rel="noopener noreferrer">Lambda Lounge user group</a>. St. Louis, MO.
             April 7, 2011.
             <br />
-            <a href={ModelTheorySemanticsPdf} target="_blank">{ModelTheorySemanticsPdf}</a>
+            <a href={ModelTheorySemanticsPdf} target="_blank" rel="noopener noreferrer">{ModelTheorySemanticsPdf}</a>
             <br />
-            <a href="https://github.com/jimtyhurst/generalized-quantifiers" target="_blank">https://github.com/jimtyhurst/generalized-quantifiers</a>
+            <a href="https://github.com/jimtyhurst/generalized-quantifiers" target="_blank" rel="noopener noreferrer">https://github.com/jimtyhurst/generalized-quantifiers</a>
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const PublicationsNLP = () => (
             Symposium of the Radiological Society of North America (RSNA)
             2001 Annual Meeting, November 25 - 30, 2001.
             <br />
-            <a href={Rsna2001Pdf} target="_blank">{Rsna2001Pdf}</a>
+            <a href={Rsna2001Pdf} target="_blank" rel="noopener noreferrer">{Rsna2001Pdf}</a>
           </p>
         </div>
       </div>
@@ -50,7 +50,7 @@ const PublicationsNLP = () => (
             "Logical Forms for English Sentences".
             Ph.D. dissertation at the University of California, Los Angeles.
             <br />
-            <a href="http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf" target="_blank">http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf</a>
+            <a href="http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf" target="_blank" rel="noopener noreferrer">http://www.linguistics.ucla.edu/general/dissertations/Tyhurst.1990.pdf</a>
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ const PublicationsNLP = () => (
             Presented at the 1989 Annual Meeting of the Linguistic Society of America,
             Washington, DC, December 27-30, 1989.
             <br />
-            Abstract on p. 67 of{" "}<a href="https://www.linguisticsociety.org/sites/default/files/Ling.%20Society%20of%20America%201989.pdf" target="_blank">Annual Meeting 1989 Handbook</a>{" "}
+            Abstract on p. 67 of{" "}<a href="https://www.linguisticsociety.org/sites/default/files/Ling.%20Society%20of%20America%201989.pdf" target="_blank" rel="noopener noreferrer">Annual Meeting 1989 Handbook</a>{" "}
             (p. 95/154 of PDF)
           </p>
         </div>
@@ -112,7 +112,7 @@ const PublicationsNLP = () => (
             (April 12-14, 1988).
             Detroit: Engineering Society of Detroit. pp. 203-210.
             <br />
-            Proceedings indexed in:{" "}<a href="http://www.worldcat.org/title/2nd-annual-expert-systems-conference-and-exposition-selected-papers-april-12-14-1988-cobo-hall-detroit-michigan/oclc/78781853" target="_blank">OCLC WorldCat</a>.
+            Proceedings indexed in:{" "}<a href="http://www.worldcat.org/title/2nd-annual-expert-systems-conference-and-exposition-selected-papers-april-12-14-1988-cobo-hall-detroit-michigan/oclc/78781853" target="_blank" rel="noopener noreferrer">OCLC WorldCat</a>.
           </p>
         </div>
       </div>
@@ -138,7 +138,7 @@ const PublicationsNLP = () => (
             Knowledge-Based Expert Systems for Manufacturing (PED-Vol. 24).
             New York: The American Society of Mechanical Engineers. pp. 131-136.
             <br />
-            Proceedings indexed in:{" "}<a href="https://www.worldcat.org/title/knowledge-based-expert-systems-for-manufacturing-presented-at-the-winter-annual-meeting-of-the-american-society-of-mechanical-engineers-anaheim-california-december-7-12-1986/oclc/15049609" target="_blank">OCLC WorldCat</a>.
+            Proceedings indexed in:{" "}<a href="https://www.worldcat.org/title/knowledge-based-expert-systems-for-manufacturing-presented-at-the-winter-annual-meeting-of-the-american-society-of-mechanical-engineers-anaheim-california-december-7-12-1986/oclc/15049609" target="_blank" rel="noopener noreferrer">OCLC WorldCat</a>.
           </p>
         </div>
       </div>
@@ -151,7 +151,7 @@ const PublicationsNLP = () => (
             Ultratech Artificial Intelligence Conference Proceedings (Vol. 1),
             Long Beach, California. pp. 2-199 to 2-211.
             <br />
-            Proceedings indexed in:{" "}<a href="https://www.worldcat.org/title/ultratech-conference-proceedings-september-22-25-1986-long-beach-california/oclc/978130176&referer=brief_results" target="_blank">OCLC WorldCat</a>.
+            Proceedings indexed in:{" "}<a href="https://www.worldcat.org/title/ultratech-conference-proceedings-september-22-25-1986-long-beach-california/oclc/978130176&referer=brief_results" target="_blank" rel="noopener noreferrer">OCLC WorldCat</a>.
           </p>
         </div>
       </div>
@@ -176,7 +176,7 @@ const PublicationsNLP = () => (
             M.A. thesis at the University of California, Los Angeles.
             <br />
             Indexed in{" "}
-            <a href="http://dla.library.upenn.edu/dla/olac/record.html?id=gial_edu_22494" target="_blank">OLAC Language Resource Catalog</a>
+            <a href="http://dla.library.upenn.edu/dla/olac/record.html?id=gial_edu_22494" target="_blank" rel="noopener noreferrer">OLAC Language Resource Catalog</a>
           </p>
         </div>
       </div>

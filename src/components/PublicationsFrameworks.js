@@ -19,7 +19,7 @@ const PublicationsFrameworks = () => (
             Presented at Dr. Dobb's Architecture & Design World.
             Chicago, IL. July 17 - 20, 2006.
             <br />
-            <a href={ServiceGateways2006Pdf} target="_blank">{ServiceGateways2006Pdf}</a>
+            <a href={ServiceGateways2006Pdf} target="_blank" rel="noopener noreferrer">{ServiceGateways2006Pdf}</a>
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@ const PublicationsFrameworks = () => (
             Association for Computing Machinery's Conference on Object-Oriented Programming, Systems,
             Languages, and Applications (OOPSLA 2002). Seattle, WA. Nov. 4 - 8, 2002.
             <br />
-            <a href="http://www.oopsla.org/2002/fp/files/wor-26.html" target="_blank">http://www.oopsla.org/2002/fp/files/wor-26.html</a>
+            <a href="http://www.oopsla.org/2002/fp/files/wor-26.html" target="_blank" rel="noopener noreferrer">http://www.oopsla.org/2002/fp/files/wor-26.html</a>
           </p>
         </div>
       </div>
@@ -47,9 +47,9 @@ const PublicationsFrameworks = () => (
             2001 ACM Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2001).
             Tampa, Florida. October 14 - 18, 2001.
             <br />
-            <a href="http://www.tyhurst.com/resources/patterns/tx/" target="_blank">http://www.tyhurst.com/resources/patterns/tx/</a>
+            <a href="http://www.tyhurst.com/resources/patterns/tx/" target="_blank" rel="noopener noreferrer">http://www.tyhurst.com/resources/patterns/tx/</a>
             <br />
-            <a href="http://www.oopsla.org/2001/fp/workshops/23.html" target="_blank">http://www.oopsla.org/2001/fp/workshops/23.html</a>
+            <a href="http://www.oopsla.org/2001/fp/workshops/23.html" target="_blank" rel="noopener noreferrer">http://www.oopsla.org/2001/fp/workshops/23.html</a>
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ const PublicationsFrameworks = () => (
             1999 ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA '99).
             Denver, Colorado. November 1 - 5, 1999.
             <br />
-            <a href="http://classic.sigplan.org/oopsla/oopsla99/2_ap/workshops/ws20.html" target="_blank">http://classic.sigplan.org/oopsla/oopsla99/2_ap/workshops/ws20.html</a>
+            <a href="http://classic.sigplan.org/oopsla/oopsla99/2_ap/workshops/ws20.html" target="_blank" rel="noopener noreferrer">http://classic.sigplan.org/oopsla/oopsla99/2_ap/workshops/ws20.html</a>
           </p>
         </div>
       </div>

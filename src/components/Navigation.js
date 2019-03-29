@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => (
   <nav id="nav-wrap">
-    <a className="mobile-btn" href="#nav-wrap" />
+    <a className="mobile-btn" href="#nav-wrap"> </a>
     <ul id="nav" className="nav">
       <li className="current">
         <a className="smoothscroll" href="#home">

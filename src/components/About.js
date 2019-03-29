@@ -8,7 +8,7 @@ const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="profile picture" />
+        <img className="profile-pic" src={profilePic} alt="profile" />
       </div>
       <div className="nine columns main-col">
         <h2>About Me</h2>
@@ -19,7 +19,7 @@ const About = () => (
           My previous experience developing enterprise Java applications and microservices
           is proving useful to productize new machine learning applications.
           For example, I recently implemented some statistical analyses in
-          {" "}<a href="https://www.r-project.org/" target="_blank">R</a>{" "}
+          {" "}<a href="https://www.r-project.org/" target="_blank" rel="noopener noreferrer">R</a>{" "}
           and then productized that application for deployment as a web service.
           My experience as an application architect is especially useful working with
           data scientists, helping them to turn their preliminary coding into released products.
@@ -37,7 +37,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href={resumePdf} target="_blank" className="button">
+              <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>

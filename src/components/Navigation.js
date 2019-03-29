@@ -21,13 +21,13 @@ const Navigation = () => (
         </Link>
       </li>
       <li>
-        <Link className="smoothscroll" to="#publications">
-          Presentations
+        <Link className="smoothscroll" to="#portfolio">
+          Portfolio
         </Link>
       </li>
       <li>
-        <Link className="smoothscroll" to="#portfolio">
-          Portfolio
+        <Link className="smoothscroll" to="#publications">
+          Presentations
         </Link>
       </li>
       <li>

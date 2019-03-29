@@ -1,11 +1,12 @@
 import React from "react";
 import { FaChevronCircleDown } from "react-icons/lib/fa";
+import { Link } from "gatsby";
 
 const ScrollDown = () => (
   <p className="scrolldown">
-    <a className="smoothscroll" href="#about">
+    <Link className="smoothscroll" to="#about">
       <FaChevronCircleDown />
-    </a>
+    </Link>
   </p>
 );
 

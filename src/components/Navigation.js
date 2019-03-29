@@ -1,33 +1,34 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const Navigation = () => (
   <nav id="nav-wrap">
-    <a className="mobile-btn" href="#nav-wrap" />
+    <a className="mobile-btn" href="#nav-wrap"> </a>
     <ul id="nav" className="nav">
-      <li className="current">
-        <a className="smoothscroll" href="#home">
+      <li>
+        <Link className="smoothscroll" to="#home">
           Home
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#about">
+        <Link className="smoothscroll" to="#about">
           About
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#resume">
+        <Link className="smoothscroll" to="#resume">
           Resume
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#publications">
+        <Link className="smoothscroll" to="#publications">
           Presentations
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#footer">
+        <Link className="smoothscroll" to="#footer">
           Footer
-        </a>
+        </Link>
       </li>
     </ul>
   </nav>

@@ -301,7 +301,6 @@ a, a:visited {
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
 
-
 /*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
@@ -889,7 +888,7 @@ body {
 
 header {
   position: relative;
-  height: 800px;
+  height: 100vh;
   min-height: 500px;
   width: 100%;
   background: #161415 no-repeat top center;
@@ -1053,7 +1052,9 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
-ul#nav li a:hover,
+ul#nav li a:hover {
+  color: #2ac7fb;
+}
 ul#nav li a:focus {
   color: #fb5e2a;
 }

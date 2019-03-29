@@ -16,9 +16,9 @@ const Clients = () => (
           <div className="info">
             <p>
               See my{" "}
-              <a href={resumePdf} target="_blank">PDF resume</a>
+              <a href={resumePdf} target="_blank" rel="noopener noreferrer">PDF resume</a>
               {" "}or my{" "}
-              <a href="https://www.linkedin.com/in/jimtyhurst" target="_blank">LinkedIn profile</a>
+              <a href="https://www.linkedin.com/in/jimtyhurst" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
               {" "}for a listing of my consulting clients and projects.
             </p>
           </div>

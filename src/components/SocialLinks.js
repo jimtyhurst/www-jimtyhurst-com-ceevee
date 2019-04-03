@@ -4,8 +4,7 @@ import {
   FaGooglePlus,
   FaLinkedin,
   FaTwitter
-} from "react-icons/lib/fa";
-// https://github.com/react-icons/react-icons
+} from "react-icons/fa";
 
 const SocialLinks = () => (
   <ul className="social">

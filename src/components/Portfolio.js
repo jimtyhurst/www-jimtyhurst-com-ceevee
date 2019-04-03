@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPlus } from "react-icons/lib/fa";
+import { FaPlus } from "react-icons/fa";
 import { Link } from "gatsby";
 
 import Coffee from "../assets/images/portfolio/coffee.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronCircleUp } from "react-icons/lib/fa";
+import { FaChevronCircleUp } from "react-icons/fa";
 import SocialLinks from "./SocialLinks";
 import { Link } from "gatsby";
 

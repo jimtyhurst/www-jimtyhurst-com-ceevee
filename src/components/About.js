@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { GoCloudDownload } from "react-icons/go";
 
 import profilePic from "../assets/images/JimTyhurst.jpg";
 import resumePdf from "../assets/resources/JimTyhurst_Resume.pdf";
@@ -38,7 +38,7 @@ const About = () => (
           <div className="columns download">
             <p>
               <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="button">
-                <FaCloudDownload /> Download Resume
+                <GoCloudDownload /> Download Resume
               </a>
             </p>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronCircleDown } from "react-icons/lib/fa";
+import { FaChevronCircleDown } from "react-icons/fa";
 import { Link } from "gatsby";
 
 const ScrollDown = () => (

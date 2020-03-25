@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { FaTags } from "react-icons/fa";
 import { Link } from "gatsby";
 
 import Coffee from "../assets/images/portfolio/coffee.jpg";
@@ -142,7 +143,7 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <Link to href="#modal-08" title="">
+              <Link to="#modal-08" title="">
                 <img alt="" src={Retrocam} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -156,10 +157,11 @@ const Portfolio = () => (
               </Link>
             </div>
           </div>
+
         </div>
       </div>
 
-      {/* <div id="modal-01" className="popup-modal mfp-hide">
+      <div id="modal-01" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
           src="images/portfolio/modals/m-coffee.jpg"
@@ -174,7 +176,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag /> Branding, Webdesign
+            <FaTags /> Branding, Webdesign
           </span>
         </div>
 
@@ -199,7 +201,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding, Web Development
+            <FaTags />Branding, Web Development
           </span>
         </div>
 
@@ -224,7 +226,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding
+            <FaTags />Branding
           </span>
         </div>
 
@@ -249,7 +251,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Photography
+            <FaTags />Photography
           </span>
         </div>
 
@@ -274,7 +276,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding, Webdesign
+            <FaTags />Branding, Webdesign
           </span>
         </div>
 
@@ -299,7 +301,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Photography
+            <FaTags />Photography
           </span>
         </div>
 
@@ -324,7 +326,7 @@ const Portfolio = () => (
             sem nibh id elit.
           </p>
           <span className="categories">
-            <FaTag />Branding, Illustration
+            <FaTags />Branding, Illustration
           </span>
         </div>
 
@@ -357,7 +359,7 @@ const Portfolio = () => (
           <a href="http://www.behance.net">Details</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
-      </div> */}
+      </div>
     </div>
   </section>
 );

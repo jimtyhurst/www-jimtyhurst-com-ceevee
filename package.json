@@ -15,6 +15,10 @@
     "url": "https://jimtyhurst@bitbucket.org/jimtyhurst/www-jimtyhurst-com-ceevee.git"
   },
   "private": true,
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  },
   "dependencies": {
     "babel-eslint": "^10.0.0",
     "fsevents": "^2.3.2",

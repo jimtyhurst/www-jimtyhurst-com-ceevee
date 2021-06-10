@@ -27,7 +27,7 @@ const Navigation = () => (
       </li>
       <li>
         <Link className="smoothscroll" to="#footer">
-          Footer
+          Links
         </Link>
       </li>
     </ul>

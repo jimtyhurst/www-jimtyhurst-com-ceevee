@@ -1,7 +1,7 @@
-import React from "react";
-import { FaChevronCircleUp } from "react-icons/fa";
-import SocialLinks from "./SocialLinks";
-import { Link } from "gatsby";
+import React from 'react'
+import { FaChevronCircleUp } from 'react-icons/fa'
+import SocialLinks from './SocialLinks'
+import { Link } from 'gatsby'
 
 const Footer = () => (
   <footer id="footer">
@@ -21,6 +21,6 @@ const Footer = () => (
       </div>
     </div>
   </footer>
-);
+)
 
-export default Footer;
+export default Footer

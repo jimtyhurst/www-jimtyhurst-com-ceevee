@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Clients = () => (
   <div className="row clients">
@@ -13,15 +13,21 @@ const Clients = () => (
         <div className="twelve columns">
           <div className="info">
             <p>
-              See my{" "}
-              <a href="https://www.linkedin.com/in/jimtyhurst" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
-              {" "}for a listing of my consulting clients and projects.
+              See my{' '}
+              <a
+                href="https://www.linkedin.com/in/jimtyhurst"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>{' '}
+              for a listing of my consulting clients and projects.
             </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-);
+)
 
-export default Clients;
+export default Clients

@@ -1,9 +1,11 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
 const Navigation = () => (
   <nav id="nav-wrap">
-    <a className="mobile-btn" href="#nav-wrap"> </a>
+    <a className="mobile-btn" href="#nav-wrap">
+      {' '}
+    </a>
     <ul id="nav" className="nav">
       <li>
         <Link className="smoothscroll" to="#home">
@@ -32,6 +34,6 @@ const Navigation = () => (
       </li>
     </ul>
   </nav>
-);
+)
 
-export default Navigation;
+export default Navigation

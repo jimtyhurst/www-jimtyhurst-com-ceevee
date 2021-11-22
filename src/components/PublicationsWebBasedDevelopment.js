@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const PublicationsWebBasedDevelopment = () => (
   <div className="row publications-web-based-development">
@@ -12,11 +12,11 @@ const PublicationsWebBasedDevelopment = () => (
       <div className="row item">
         <div className="twelve columns">
           <p>
-            Tyhurst, James J. 1998.
-            Case study: Publishing design deliverables on the web.
-            Presented at the workshop, "Web enactment of object-oriented software design".
-            1998 ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA '98).
-            Vancouver, British Columbia. October 18-22, 1998.
+            Tyhurst, James J. 1998. Case study: Publishing design deliverables
+            on the web. Presented at the workshop, "Web enactment of
+            object-oriented software design". 1998 ACM SIGPLAN Conference on
+            Object-Oriented Programming Systems, Languages, and Applications
+            (OOPSLA '98). Vancouver, British Columbia. October 18-22, 1998.
           </p>
         </div>
       </div>
@@ -24,6 +24,6 @@ const PublicationsWebBasedDevelopment = () => (
     <p>&nbsp;</p>
     <p>&nbsp;</p>
   </div>
-);
+)
 
-export default PublicationsWebBasedDevelopment;
+export default PublicationsWebBasedDevelopment

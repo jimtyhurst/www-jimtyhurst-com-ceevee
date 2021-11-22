@@ -19,6 +19,8 @@ const PublicationsRstats = () => (
             Portland R User Group <a href="https://www.meetup.com/portland-r-user-group/events/276194867/" target="_blank" rel="noopener noreferrer">Meetup Announcement</a>.
             <br />
             <a href="https://github.com/jimtyhurst/git-10-commands/blob/main/10-Git-Commands-for-Collaborating.pdf" target="_blank" rel="noopener noreferrer">10-Git-Commands-for-Collaborating.pdf</a>
+            <br />
+            <a href="https://www.youtube.com/watch?v=2cEGTShuHuo" target="_blank" rel="noopener noreferrer">YouTube recording</a>.
           </p>
         </div>
       </div>

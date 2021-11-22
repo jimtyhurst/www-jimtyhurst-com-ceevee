@@ -14,7 +14,7 @@ const LifelongLearning = () => (
           <h3>Online Courses</h3>
           <p className="info">
             <a
-              href="https://www.coursera.org/professional-certificates/gcp-cloud-architect"
+              href="https://www.coursera.org/professional-certificates/gcp-cloud-architect#courses"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ const LifelongLearning = () => (
           </p>
           <p className="info">
             <a
-              href="https://www.coursera.org/specializations/machine-learning-tensorflow-gcp"
+              href="https://www.coursera.org/specializations/machine-learning-tensorflow-gcp#courses"
               target="_blank"
               rel="noopener noreferrer"
             >

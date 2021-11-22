@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Work from "./Work";
-import CurrentFocus from "./CurrentFocus";
-import Clients from "./Clients";
-import Education from "./Education";
+import Work from './Work'
+import CurrentFocus from './CurrentFocus'
+import Clients from './Clients'
+import Education from './Education'
 
 const Resume = () => (
   <section id="resume">
@@ -12,6 +12,6 @@ const Resume = () => (
     <Clients />
     <Education />
   </section>
-);
+)
 
-export default Resume;
+export default Resume

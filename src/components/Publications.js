@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import PublicationsNLP from "./PublicationsNLP";
-import PublicationsRstats from "./PublicationsRstats";
-import PublicationsFrameworks from "./PublicationsFrameworks";
-import PublicationsWebBasedDevelopment from "./PublicationsWebBasedDevelopment";
+import PublicationsNLP from './PublicationsNLP'
+import PublicationsRstats from './PublicationsRstats'
+import PublicationsFrameworks from './PublicationsFrameworks'
+import PublicationsWebBasedDevelopment from './PublicationsWebBasedDevelopment'
 
 const Publications = () => (
   <section id="publications">
@@ -12,6 +12,6 @@ const Publications = () => (
     <PublicationsFrameworks />
     <PublicationsWebBasedDevelopment />
   </section>
-);
+)
 
-export default Publications;
+export default Publications

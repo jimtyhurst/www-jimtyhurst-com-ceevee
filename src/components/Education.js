@@ -108,7 +108,15 @@ const Education = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of California, Los Angeles (UCLA)</h3>
+          <h3>University of California, Los Angeles (
+            <a
+              href="http://linguistics.ucla.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              UCLA
+            </a>
+            )</h3>
           <p className="info">
             M.A.{' '}
             <a

@@ -19,9 +19,14 @@
     "node": "14.18.1",
     "npm": "8.1.4"
   },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "babel-eslint": "^10.0.0",
-    "fsevents": "^2.3.2",
     "gatsby": "^3.7.0",
     "gatsby-cli": "^3.7.0",
     "gatsby-link": "^3.7.0",
@@ -51,11 +56,8 @@
     "typography": "^0.16.21",
     "typography-theme-bootstrap": "^0.16.19"
   },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
   },
   "devDependencies": {
     "prettier": "^2.3.1"

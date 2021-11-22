@@ -12,6 +12,19 @@ const PublicationsRstats = () => (
       <div className="row item">
         <div className="twelve columns">
           <p>
+            Tyhurst, Jim. 2021-02-23.
+            10 Git Commands for Collaborating: Learn Just Enough Git and GitHub to Contribute to an Open Source Project.
+            Presented at <a href="https://www.meetup.com/portland-r-user-group/" target="_blank" rel="noopener noreferrer">Portland R User Group</a>, Portland, OR.
+            <br />
+            Portland R User Group <a href="https://www.meetup.com/portland-r-user-group/events/276194867/" target="_blank" rel="noopener noreferrer">Meetup Announcement</a>.
+            <br />
+            <a href="https://github.com/jimtyhurst/git-10-commands/blob/main/10-Git-Commands-for-Collaborating.pdf" target="_blank" rel="noopener noreferrer">10-Git-Commands-for-Collaborating.pdf</a>
+          </p>
+        </div>
+      </div>
+      <div className="row item">
+        <div className="twelve columns">
+          <p>
             Tyhurst, Jim. 2017.
             Internationalizing an R application for model parameters
             that vary per country.
@@ -24,7 +37,6 @@ const PublicationsRstats = () => (
           </p>
         </div>
       </div>
-
     </div>
   </div>
 );

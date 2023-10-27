@@ -15,10 +15,6 @@
     "url": "https://jimtyhurst@bitbucket.org/jimtyhurst/www-jimtyhurst-com-ceevee.git"
   },
   "private": true,
-  "engines": {
-    "node": "14.21.3",
-    "npm": "6.14.18"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
